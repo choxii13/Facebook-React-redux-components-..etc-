@@ -1,0 +1,20 @@
+.form-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-upper p {
+  display: flex;
+  font-size: 1.8rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.form-upper p:hover {
+  cursor: pointer;
+  background-color: rgb(197, 194, 194);
+  box-shadow: 1px 1px 5px 0.3px black;
+}

@@ -1,0 +1,16 @@
+.label-input {
+  display: flex;
+  border: 1px solid rgb(133, 132, 132);
+  height: 2.5rem;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 0.99rem;
+  width: 50%;
+  padding-left: 0.8rem;
+  flex-direction: row;
+  margin: auto;
+  gap: 20px;
+}
+.label-input.active {
+  border: 1px solid rgb(238, 0, 0);
+}

@@ -1,0 +1,188 @@
+.form-sign-up {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-sign-up input,
+select {
+  height: 2.7rem;
+  border-radius: 5px;
+  padding-left: 0.4rem;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(78, 78, 78, 0.5);
+}
+.form-sign-up input:focus {
+  outline: none;
+}
+.form-sign-up input[type="radio"] {
+  height: 1rem;
+}
+
+.form-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  position: relative;
+}
+
+.form-content-row {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+
+.form-lower {
+  font-size: 0.5rem;
+  font-weight: 100;
+  color: gray;
+}
+
+#highlight {
+  color: #1877f2;
+}
+#highlight:hover {
+  text-decoration: underline;
+}
+
+.form-sign-up button {
+  margin: auto;
+  background-color: green;
+  width: 13rem;
+  height: 2.3rem;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  outline: none;
+  border: none;
+}
+
+.form-sign-up input {
+  background-color: rgba(78, 78, 78, 0.1);
+}
+
+.form-sign-up button:hover {
+  background-color: rgb(4, 75, 4);
+  cursor: pointer;
+}
+.form-content .error-tip.firstname {
+  position: absolute;
+  background-color: rgb(173, 41, 41);
+  box-shadow: 1px 1px 10px 0.3px rgb(39, 37, 37);
+  padding: 0.9rem;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  left: -11rem;
+  top: -0.1rem;
+}
+.form-content .error-tip.firstname::after {
+  position: absolute;
+  content: "";
+  margin-top: -0.6rem;
+  border-top: 1.05rem solid transparent;
+  border-left: 1.6rem solid rgb(173, 41, 41);
+  border-bottom: 1.05rem solid transparent;
+}
+.form-content .error-tip.lastname {
+  position: absolute;
+  background-color: rgb(173, 41, 41);
+  box-shadow: 1px 1px 10px 0.3px rgb(39, 37, 37);
+  padding: 0.9rem;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  left: 13rem;
+  top: 3rem;
+}
+
+.form-content .error-tip.lastname::after {
+  position: absolute;
+  content: "";
+  margin-left: -5rem;
+  margin-top: -1.5rem;
+  border-left: 1.05rem solid transparent;
+  border-right: 1.05rem solid transparent;
+  border-bottom: 1.6rem solid rgb(173, 41, 41);
+}
+
+.form-content .error-tip.mobile-email {
+  position: absolute;
+  background-color: rgb(173, 41, 41);
+  box-shadow: 1px 1px 10px 0.3px rgb(39, 37, 37);
+  padding: 0.9rem;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  left: -12rem;
+  top: 3.3rem;
+}
+
+.form-content .error-tip.mobile-email::after {
+  position: absolute;
+  content: "";
+  margin-left: 0.01rem;
+  margin-top: -0.6rem;
+  border-top: 1.05rem solid transparent;
+  border-left: 1.6rem solid rgb(173, 41, 41);
+  border-bottom: 1.05rem solid transparent;
+}
+
+.form-content .error-tip.password {
+  position: absolute;
+  background-color: rgb(173, 41, 41);
+  box-shadow: 1px 1px 10px 0.3px rgb(39, 37, 37);
+  padding: 0.9rem;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  left: -19.8rem;
+  top: 6.4rem;
+  max-width: 18.7rem;
+}
+.form-content .error-tip.password::after {
+  position: absolute;
+  content: "";
+  margin-left: 9.4rem;
+  margin-top: -2rem;
+  border-top: 1.05rem solid transparent;
+  border-left: 1.6rem solid rgb(173, 41, 41);
+  border-bottom: 1.05rem solid transparent;
+}
+
+.form-content .error-tip.confirm-password {
+  position: absolute;
+  background-color: rgb(173, 41, 41);
+  box-shadow: 1px 1px 10px 0.3px rgb(39, 37, 37);
+  padding: 0.9rem;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  left: -14.3rem;
+  top: 10rem;
+  max-width: 300px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.form-content .error-tip.confirm-password::after {
+  position: absolute;
+  content: "";
+  margin-left: 5px;
+  margin-top: -10px;
+  border-top: 18px solid transparent;
+  border-left: 20px solid rgb(173, 41, 41);
+  border-bottom: 18px solid transparent;
+  width: 0;
+  height: 0;
+}

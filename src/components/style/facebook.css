@@ -1,0 +1,89 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 8rem;
+
+  gap: 100px;
+}
+.facebook {
+  font-size: 1.5rem;
+  width: 27rem;
+  color: rgb(5, 5, 5);
+  font-weight: 100;
+  line-height: 1.5rem;
+}
+
+.facebook img {
+  width: 20rem;
+  object-fit: cover;
+  height: 100%;
+  object-position: -2rem;
+}
+
+.form-sign-in {
+  display: flex;
+  width: 24rem;
+  height: 21rem;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 1px rgba(131, 130, 130, 0.3);
+}
+.form-sign-in span {
+  display: flex;
+  justify-content: center;
+  color: rgba(0, 0, 255, 0.8);
+  font-size: 1rem;
+}
+.form-sign-in span:hover {
+  text-decoration: underline;
+}
+
+input.design {
+  padding-left: 0.7rem;
+  height: 3.3rem;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid rgba(78, 78, 78, 0.5);
+  font-size: 1rem;
+}
+
+input.design:focus {
+  outline: none;
+  border: 1px solid #1877f2;
+  box-shadow: 0px 0px 0px 0.1px #1877f2;
+}
+/* it depends */
+/* .log-in input::placeholder {
+    color: rgba(161, 157, 157, 0.6);
+  } */
+
+.form-sign-in button {
+  height: 3.3rem;
+  border-radius: 5px;
+  background-color: #1877f2;
+  color: white;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+}
+.form-sign-in button:hover {
+  cursor: pointer;
+}
+hr {
+  width: 100%;
+  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.form-sign-in button:last-child {
+  margin: auto;
+  background-color: green;
+  width: 12rem;
+}
